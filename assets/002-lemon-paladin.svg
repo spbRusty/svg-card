@@ -1,24 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640"><defs>
-<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#162c43"/><stop offset=".52" stop-color="#75602d"/><stop offset="1" stop-color="#101622"/></linearGradient>
-<linearGradient id="fruit" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff2a0"/><stop offset=".32" stop-color="#ffdc42"/><stop offset="1" stop-color="#c98b23"/></linearGradient>
-<linearGradient id="steel" x2=".7" y2="1"><stop stop-color="#f0f0d9"/><stop offset=".3" stop-color="#7d9095"/><stop offset=".62" stop-color="#384a59"/><stop offset="1" stop-color="#172331"/></linearGradient>
-<radialGradient id="glow"><stop stop-color="#ffdf53" stop-opacity=".8"/><stop offset="1" stop-color="#ffdf53" stop-opacity="0"/></radialGradient>
-</defs><rect width="480" height="640" fill="url(#bg)"/><circle cx="245" cy="280" r="235" fill="url(#glow)"/><path d="M0 489L480 366V640H0Z" fill="#090f18" opacity=".8"/>
-<g fill="none" stroke="#ffdc42" opacity=".45"><path d="M-12 173L96 63l50 11 61-54M325 70l67 29 43-10 58 40" stroke-width="3"/><circle cx="243" cy="297" r="180" stroke-dasharray="3 13" stroke-width="2"/></g><ellipse cx="245" cy="550" rx="133" ry="23" fill="#000" opacity=".6"/>
-<g transform="translate(245 328) rotate(8)">
-<path d="M-61 8L-113 52L-157 30L-120 -18L-77 -42M57 9L108 53L145 30L111 -17L72 -42" fill="#263746" stroke="#101722" stroke-width="13" stroke-linejoin="round"/>
-<path d="M-157 30l-24 17 31 18 22 -14M145 30l25 17 -31 18 -22 -14" fill="#e5c94d" stroke="#101722" stroke-width="6"/>
-<path d="M-70 -38Q-109 -5 -79 40Q-57 79 -3 87Q54 79 76 35Q92 -8 52 -43Z" fill="url(#fruit)" stroke="#3a2b21" stroke-width="10"/>
-<path d="M-50 -35Q-22 -4 -18 30L-8 61" fill="none" stroke="#fff3a3" stroke-width="10" stroke-linecap="round"/>
-<path d="M-69 -55L-79 -99L-45 -126L2 -129L46 -106L67 -62L42 -42L-42 -42Z" fill="url(#steel)" stroke="#101722" stroke-width="9"/>
-<path d="M-45 -88L-15 -103L-8 -76L-42 -65ZM10 -102L39 -87L34 -63L6 -74Z" fill="#253747" stroke="#101722" stroke-width="5"/>
-<path d="M-40 -84L-18 -92L-17 -78L-39 -72ZM13 -89L31 -80L28 -68L10 -76Z" fill="#fff0a1"/>
-<path d="M-47 -46L-29 -28L-3 -35L18 -27L41 -47L51 -10L31 8L-31 8L-53 -10Z" fill="#d7e1d9" stroke="#18222e" stroke-width="7"/>
-<path d="M-20 -29L0 -17L20 -29L25 -2L0 19L-25 -2Z" fill="#e2a72b" stroke="#18222e" stroke-width="5"/>
-<path d="M-31 12L-57 46L-30 64L-5 29M27 12L53 44L32 61L7 29" fill="#2a3b4a" stroke="#101722" stroke-width="7"/>
-<path d="M-25 48L-40 90L-70 108L-63 126L-21 111L2 70M19 48L39 89L68 105L61 123L24 109L-2 70" fill="url(#steel)" stroke="#101722" stroke-width="9"/>
-<path d="M-80 -62L-103 -111L-91 -132L-65 -91M56 -61L83 -108L71 -130L44 -90" fill="#e5c94d" stroke="#18222e" stroke-width="7"/>
-<path d="M-109 -131L-102 -151L-91 -132M71 -130L78 -151L83 -108" fill="#fff0a0" stroke="#18222e" stroke-width="4"/>
-<path d="M98 -5L133 -53L148 -46L124 10L104 29Z" fill="#dce4df" stroke="#18222e" stroke-width="7"/><path d="M137 -55L151 -82L158 -49L146 -42Z" fill="#f8d84a" stroke="#18222e" stroke-width="5"/>
-<path d="M-53 49l-13 16M47 47l14 16M-42 82l-14 7M39 81l13 8" stroke="#fff0a0" stroke-width="4" stroke-linecap="round"/>
-</g><rect width="480" height="640" fill="#fff" opacity=".025"/><path d="M20 20h42M20 20v42M460 20h-42M460 20v42M20 620h42M20 620v-42M460 620h-42M460 620v-42" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11182b"/><stop offset=".48" stop-color="#3b2639"/><stop offset="1" stop-color="#111725"/></linearGradient>
+<linearGradient id="metal" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#f2f0df"/><stop offset=".25" stop-color="#8495a9"/><stop offset=".6" stop-color="#3b4a60"/><stop offset="1" stop-color="#171e2b"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3a0"/><stop offset="1" stop-color="#f4df36"/></linearGradient>
+<radialGradient id="flare"><stop stop-color="#63e5ff" stop-opacity=".6"/><stop offset="1" stop-color="#63e5ff" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#dce8ff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="480" height="640" fill="url(#bg)"/><rect width="480" height="640" fill="url(#grid)"/>
+<circle cx="350" cy="183" r="180" fill="url(#flare)"/>
+<path d="M0 440L74 352 119 381 177 300 221 355 280 287 350 369 409 320 480 382V640H0Z" fill="#0d1420" stroke="#718094" stroke-opacity=".45" stroke-width="3"/>
+<path d="M0 493l75-30 34 19 69-39 63 30 55-38 79 44 51-29 54 27" fill="none" stroke="#63e5ff" stroke-opacity=".7" stroke-width="3"/>
+<g opacity=".8" stroke="#63e5ff" stroke-width="3"><path d="M34 112l35-20 30 20-30 20Z" fill="none"/><path d="M390 72l24 14v28l-24 14-24-14V86Z" fill="none"/><path d="M30 273h62m-31-31v62"/></g>
+<path d="M115 343L341 190" stroke="#22232d" stroke-width="24" stroke-linecap="round"/><path d="M119 337L344 184" stroke="#63e5ff" stroke-width="8" stroke-linecap="round"/><path d="M325 190l40-38-8 51Z" fill="#fff3a0" stroke="#22232d" stroke-width="6"/>
+<!-- airborne torso -->
+<path d="M204 252Q244 219 292 239L320 292 290 354 229 337 194 294Z" fill="url(#metal)" stroke="#151923" stroke-width="12" stroke-linejoin="round"/>
+<path d="M214 260l44 8 21 34-29 29-31-18Z" fill="url(#accent)" stroke="#24212a" stroke-width="7"/>
+<path d="M236 274l18 4 10 19-17 13-18-11Z" fill="#63e5ff" stroke="#f8f0d9" stroke-width="3"/>
+<path d="M205 287l-48 24-34-18-17 22 48 35 65-30M292 277l43-25 24 20-37 50-36-4" fill="url(#metal)" stroke="#151923" stroke-width="12" stroke-linejoin="round"/>
+<path d="M111 303l-18 16 18 13 18-16M350 270l18-8 11 14-15 17" fill="#f4df36" stroke="#171c29" stroke-width="7"/>
+<path d="M226 330l-35 42-43 11 8 24 65-9 41-42M282 339l28 40 48 8-4 23-68-4-31-44" fill="url(#metal)" stroke="#151923" stroke-width="12" stroke-linejoin="round"/>
+<path d="M154 383l-15 22 22 9 16-17M345 386l21 5 1 19-26 1" fill="#f4df36" stroke="#171c29" stroke-width="7"/>
+<path d="M214 187 Q190 150 220 112 Q259 74 305 100 Q348 123 329 168 L308 212 249 220Z" fill="#f4df36" stroke="#25212c" stroke-width="10"/><path d="M231 121l22 12-10 12-23-10M284 101l27 12-7 14-26-13" fill="#fff3a0"/>
+<!-- face and armor details -->
+<path d="M225 169l30-20 43 12-2 27-26 23-37-9Z" fill="#151b28" stroke="#11131d" stroke-width="7"/>
+<path d="M233 173l24-8 4 11-23 9Z" fill="#63e5ff"/><path d="M274 164l16 5-5 11-15-4Z" fill="#fff3a0"/>
+<path d="M217 224l31 8 17-13 20 8-11 19-41 2Z" fill="#f4df36" stroke="#171b27" stroke-width="6"/>
+<path d="M220 245l-15 35m101-35 21 27M238 309l-8 15m42-10 12 17" stroke="#fff3a0" stroke-width="4" stroke-linecap="round"/>
+<g fill="#ffe8b2"><circle cx="207" cy="289" r="4"/><circle cx="302" cy="294" r="4"/><circle cx="252" cy="246" r="3"/><circle cx="277" cy="354" r="3"/></g>
+<g stroke="#63e5ff" stroke-width="3" fill="none"><path d="M74 425l40-15 25 8M356 433l34-15 28 8"/><path d="M56 451h32m-16-16v32M410 456h25m-12-12v24"/></g>
+<path d="M0 553L480 506V640H0Z" fill="#090e18" fill-opacity=".82"/><path d="M0 553L480 506" stroke="#63e5ff" stroke-width="3"/>
+<text x="24" y="585" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#fff3a0" letter-spacing="2">ЛИМОННЫЙ ПАЛАДИН</text>
+<text x="25" y="610" font-family="monospace" font-size="10" fill="#a9b8ca" letter-spacing="3">WASTELAND // UNIT 02</text>
+<path d="M424 566l16 9-16 9-16-9Z" fill="#63e5ff"/><path d="M432 593h19" stroke="#fff3a0" stroke-width="3"/>
+</svg>
