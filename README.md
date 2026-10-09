@@ -10,4 +10,4 @@
 
 ## GitHub Pages
 
-После запуска workflow сайт будет опубликован на GitHub Pages.
+Сайт публикуется автоматически через GitHub Actions при каждом push в `main`.
