@@ -28,8 +28,4 @@
 <path d="M220 245l-15 35m101-35 21 27M238 309l-8 15m42-10 12 17" stroke="#d9ddff" stroke-width="4" stroke-linecap="round"/>
 <g fill="#ffe8b2"><circle cx="207" cy="289" r="4"/><circle cx="302" cy="294" r="4"/><circle cx="252" cy="246" r="3"/><circle cx="277" cy="354" r="3"/></g>
 <g stroke="#ff5ca8" stroke-width="3" fill="none"><path d="M74 425l40-15 25 8M356 433l34-15 28 8"/><path d="M56 451h32m-16-16v32M410 456h25m-12-12v24"/></g>
-<path d="M0 553L480 506V640H0Z" fill="#090e18" fill-opacity=".82"/><path d="M0 553L480 506" stroke="#ff5ca8" stroke-width="3"/>
-<text x="24" y="585" font-family="Arial,sans-serif" font-size="18" font-weight="900" fill="#d9ddff" letter-spacing="2">ПРИЗРАК-ХРОНОМАНТ</text>
-<text x="25" y="610" font-family="monospace" font-size="10" fill="#a9b8ca" letter-spacing="3">WASTELAND // UNIT 05</text>
-<path d="M424 566l16 9-16 9-16-9Z" fill="#ff5ca8"/><path d="M432 593h19" stroke="#d9ddff" stroke-width="3"/>
 </svg>
